@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Despesas" representedClassName="Despesas" syncable="YES">
+        <attribute name="nomeConta" optional="YES" attributeType="String"/>
+        <attribute name="valor" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Produto" representedClassName="Produto" syncable="YES">
+        <attribute name="nomeProduto" optional="YES" attributeType="String"/>
+        <attribute name="quantidade" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Receitas" representedClassName="Receitas" syncable="YES">
+        <attribute name="nomeReceita" optional="YES" attributeType="String"/>
+        <attribute name="valorReceita" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Despesas" positionX="-54" positionY="36" width="128" height="59"/>
+        <element name="Produto" positionX="-54" positionY="18" width="128" height="59"/>
+        <element name="Receitas" positionX="-45" positionY="63" width="128" height="59"/>
+    </elements>
 </model>
